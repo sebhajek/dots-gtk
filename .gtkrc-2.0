@@ -1,0 +1,12 @@
+gtk-can-change-accels = 1
+
+gtk-icon-theme-name = "oomox-carbonesque"
+gtk-theme-name = "oomox-carbonesque"
+
+style "user-font"
+{
+        font_name="IBM Plex Mono 12"
+}
+
+widget_class "*" style "user-font"
+gtk-font-name = "IBM Plex Mono 12"
